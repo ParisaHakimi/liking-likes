@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 0 100px;
+}
+nav {
+  background-color: #333;
+  width: 100%;
+}
+nav .logo {
+  color: #fff;
+  padding: 20px;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px auto;
+}
+.profile-container {
+  width: 20%;
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile-container > img {
+  height: 100px;
+  width: 100px;
+}
+.profile-container > h2,
+.profile-container > a {
+  text-transform: capitalize;
+}
+.feed-container {
+  width: 60%;
+  padding: 20px;
+}
+.feed-container > h2 {
+  text-transform: capitalize;
+  margin: 0 30px;
+}
+.users-container {
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.users-container .card {
+  border: 2px solid #000;
+  padding: 20px;
+}
+.users-container .card .card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.users-container .card .card-header > h3 {
+  text-transform: capitalize;
+}
+.users-container .card .card-header .like-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.users-container .card .card-header .like-section .like-btn {
+  padding: 7px 29px;
+  background-color: orange;
+  text-transform: capitalize;
+  box-shadow: 3px 3px #222;
+  border: 3px solid #000;
+  cursor: pointer;
+}
+.users-container .card > p {
+  font-size: 1.1em;
+}

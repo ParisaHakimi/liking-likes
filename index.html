@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav><div class="logo">network</div></nav>
+    <div class="hero-container">
+      <div class="profile-container">
+        <img src="./assets/user.png" alt="" />
+        <a href="#">Add an avator</a>
+        <h2>james doe</h2>
+      </div>
+      <div class="feed-container">
+        <h2>your feed</h2>
+        <div class="users-container">
+          <div class="card">
+            <div class="card-header">
+              <h3>neil m</h3>
+              <div class="like-section">
+                <div><span class="count-likes">9</span> like(s)</div>
+                <button class="like-btn" onclick="increaseLike0()">like</button>
+              </div>
+            </div>
+            <p>
+              I just set up this new discord bot, let me know what you all
+              think. <a href="#">link</a>
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h3>nichole k</h3>
+              <div class="like-section">
+                <div><span class="count-likes">12</span> like(s)</div>
+                <button class="like-btn" onclick="increaseLike1()">like</button>
+              </div>
+            </div>
+            <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h3>jim r</h3>
+              <div class="like-section">
+                <div><span class="count-likes">9</span> like(s)</div>
+                <button class="like-btn" onclick="increaseLike2()">like</button>
+              </div>
+            </div>
+            <p>
+              I can't stop listening to the <a href="#">new album</a>. Who else
+              is liking it?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
